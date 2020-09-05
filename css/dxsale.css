@@ -42,6 +42,46 @@ _______________________________________________________*/
 
 /* - Hash_Custom  //---------------- */
 
+#staking_body{
+	background-color: #6E77F6;
+}
+
+.staking_home {
+	text-align: center;
+	
+	color: #ffffff;
+	width: 100%;
+	
+}
+
+.staking_home img{
+	height: auto;
+	max-width: auto;
+	
+	
+	border: none;
+	outline: none;
+	transition: all 0.4s ease 0s;
+	-moz-transition: all 0.4s ease 0s;
+	-webkit-transition: all 0.4s ease 0s;
+	-o-transition: all 0.4s ease 0s;
+}
+
+
+#staking_countdown{
+	text-align: center;
+	background-color: #6E77F6;
+	color: #ffffff;
+	border-radius: 20px 10px;
+}
+
+.bg-color-lightblue{
+	background-color: #6E77F6;
+	background: #6E77F6; 
+
+}
+
+
 .uniswap-contract{
 	background-color: #ffffff;
 	border-radius: 20px 10px;
@@ -116,6 +156,7 @@ _______________________________________________________*/
 
 body, html {
 	height: 100%;
+	width: 100%;
 	margin: 0;
 	padding: 0;
 }
