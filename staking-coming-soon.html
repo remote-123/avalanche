@@ -10,34 +10,12 @@
     <title>DxStake</title>
 
     <!-- Styles -->
-    <link href="nestea/assets/css/page.min.css" rel="stylesheet">
-    <link href="nestea/assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/dxsale.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
 
-    <!-- Favicons -->
-    <link rel="apple-touch-icon" href="nestea/assets/img/apple-touch-icon.png">
-    <link rel="icon" href="nestea/assets/img/favicon.png">
-  </head>
+</head>
 
   <body>
-
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-stick-dark" data-navbar="static">
-      <div class="container">
-
-        <div class="navbar-left">
-          <button class="navbar-toggler" type="button"><span class="navbar-toggler-icon"></span></button>
-          <a class="navbar-brand" href="staking.html">
-            <img class="logo-dark" src="nestea/assets/img/logo-dark.png" alt="logo">
-            <img class="logo-light" src="nestea/assets/img  /logo-light.png" alt="logo">
-          </a>
-        </div>
-
-
-        <a class="btn btn-xs btn-round btn-success" href="index.html">Back to home</a>
-
-      </div>
-    </nav><!-- /.navbar -->
 
 
 
@@ -51,47 +29,86 @@
       |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
       !-->
 
- 
-
-      <!-- Header -->
-      <header class="header text-white h-fullscreen pb-0 overflow-hidden text-center" >
-        <div class="overlay opacity-95" style="background-color: #816af8"></div>
+      <!-- Header start -->
+      <header id="header">
         <div class="container">
-          <div class="row align-items-center h-100">
-
-            <div class="col-md-8 mx-auto">
-              <h1>DxStake - Coming Soon</h1>
-              <p class="lead mt-4 mb-7">An elegant, modern approach to staking</p>
-              <div class="countdown countdown-sm" data-countdown="2020/09/20">
-                <div class="row gap-x-4">
-                  <div class="col">
-                    <h5>00</h5><small>Day</small>
-                  </div>
-                  <div class="col">
-                    <h5>00</h5><small>Hour</small>
-                  </div>
-                  <div class="col">
-                    <h5>00</h5><small>Minute</small>
-                  </div>
-                  <div class="col">
-                    <h5>00</h5><small>Second</small>
-                  </div>
+            <div class="row m-0">
+                <div class="col-lg-3 col-md-4 col-8 p-0">
+                    <div class="navbar-header">
+                        <a class="navbar-brand page-scroll" href="index.html">
+                            <img src="images/logo_text.png">
+                        </a>
+                    </div>
                 </div>
+                <div class="col-lg-9 col-md-8 col-4 p-0">
+                    <button data-target=".navbar-collapse" data-toggle="collapse"
+                        class="navbar-toggle d-block d-lg-none d-xl-none" type="button"><i class="fa fa-bars"></i>
+                    </button>
+                    <div id="menu" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="level">
+                                <a href="index.html">Back to Home Page</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Timer -->
+    <section class='menu-section about-part2 position-r ptb-100'>
+      <div class="container">
+        <div class="row m-0">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="heading-part text-center mb-50 mb-sm-30 mb-xs-20">
+              <ul id="example">
+                  <h4>DxStake Launch:</h4>
+                  <li><span class="days">00</span>
+                      <p class="days_text">Days</p>
+                  </li>
+                  <li class="seperator">:</li>
+                  <li><span class="hours">00</span>
+                    <p class="hours_text">Hours</p>
+                  </li>
+                  <li class="seperator">:</li>
+                  <li><span class="minutes">00</span>
+                    <p class="minutes_text">Minutes</p>
+                  </li>
+                  <li class="seperator">:</li>
+                  <li><span class="seconds">00</span>
+                    <p class="seconds_text">Seconds</p>
+                  </li>
+                </ul>
               </div>
             </div>
-            
-            <div class="col-md-8 mx-auto align-self-end">
-              <img class="mt-7" src="nestea/assets/img/mock-dxsale.png" alt="img" data-aos="fade-up">
-            </div>
+          </div>
+          
+          <div class="col-md-8 mx-auto align-self-end">
+            <img class="mt-7" src="nestea/assets/img/mock-dxsale.png" alt="img" data-aos="fade-up">
           </div>
         </div>
-      </header><!-- /.header -->
+    </section>
 
     </main><!-- /.main-content -->
 
     <!-- Scripts -->
-    <script src="nestea/assets/js/page.min.js"></script>
-    <script src="nestea/assets/js/script.js"></script>
+    <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/viewportchecker.js"></script>
+    <script src="js/snap.svg-min.js"></script>
+    <script src="js/jquery.listtopie.min.js"></script>
+    <script src="js/custom67f8.js?var=1"></script>
+    <script>
+      $('#example').countdown({
+          date: '9/20/2020 4:00:00'
+      }, function () {
+      });
+    </script>
 
   </body>
 
