@@ -46,6 +46,14 @@ _______________________________________________________*/
 	background-color: #6E77F6;
 }
 
+#landing_trade_btn2{
+	background-color: #6E77F6;
+}
+
+#landing_trade_btn2:hover{
+	background-color: #585fc7;
+}
+
 .staking_home {
 	text-align: center;
 	
@@ -107,7 +115,7 @@ _______________________________________________________*/
 	
 }
 #landing_trade_btn:hover {
-	background-color: #65C0EC;	
+	background-color: #f75d77;	
 	font-weight: 500;
 }
 
