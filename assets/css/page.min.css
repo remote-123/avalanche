@@ -13368,6 +13368,14 @@ a.text-dark:focus {
 .text-black-50 {
     color: rgba(0, 0, 0, 0.5) !important
 }
+.text-blue {
+    color: aqua !important
+}
+
+.text-black {
+    color: black !important
+}
+
 
 .text-white-50 {
     color: rgba(255, 255, 255, 0.5) !important

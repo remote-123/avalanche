@@ -33,7 +33,7 @@
 
         <div class="navbar-left">
           <button class="navbar-toggler" type="button"><span class="navbar-toggler-icon"></span></button>
-          <a class="navbar-brand" href="index-2.html">
+          <a class="navbar-brand" href="#home">
             <img class="logo-dark" src="assets/img/80-80-dark-logo.png" alt="logo">
             <img class="logo-light" src="assets/img/80x80 light logo.png" alt="logo">
           </a>
@@ -44,10 +44,12 @@
 
           <ul class="nav nav-center nav-navbar ">
         
-            <a class="nav-link" href="#">Vision & Priorities</a>
-            <a class="nav-link" href="#">Product & Features</a>
-            <a class="nav-link" href="#">Tokenomics</a>
-            <a class="nav-link" href="#">Product Roadmap</a>
+            <a class="nav-link" href="#home">Home</a>
+            <a class="nav-link" href="#our-mantra">Vision & Priorities</a>
+            <a class="nav-link" href="#product-line">Product & Features</a>
+            <a class="nav-link" href="#tokenomics">Tokenomics</a>
+            <a class="nav-link" href="#roadmap">Product Roadmap</a>
+            <a class="nav-link btn btn-xs btn-outline-primary mw-50" href="https://t.me/dxsale">Join Telegram</a>
               
           </ul>
         </section>
@@ -59,12 +61,12 @@
 
 
     <!-- Header -->
-    <header class="header text-white h-fullscreen overflow-hidden" style="background-image: linear-gradient(-45deg, #667eea 0%, #764ba2 100%);">
+    <header id="home" class="header text-white h-fullscreen overflow-hidden" style="background-image: linear-gradient(-45deg, #667eea 0%, #764ba2 100%);">
       <canvas class="constellation" data-radius="0"></canvas>
       <div class="container">
         <div class="row align-items-center h-100">
 
-          <div class="col-lg-5">
+          <div class="col-lg-8">
             <h1 class="display-4" style="color: rgb(138, 238, 230);"><strong>DxSale.network</strong></h1>
             <h2>Staking / Launchpad / Lock / Swap / Farm / NFT</h2>
             <p class="lead mt-5">We are building a true decentralized user experience of the token journey</p>
@@ -72,34 +74,35 @@
             <hr class="w-10 ml-0 my-7">
 
             <p class="gap-xy">
-              <a class="btn btn-lg btn-round btn-primary mw-200" href="https://staking.dxsale.network/">DxStake</a>
-              <a class="btn btn-lg btn-round btn-success mw-200" href="#https://uniswap.exchange/swap?inputCurrency=0xf063fe1ab7a291c5d06a86e14730b00bf24cb589">Buy on Uniswap</a>
+              <a class="btn btn-lg btn-round btn-primary mw-200" href="https://staking.dxsale.network/" target="_blank">DxStake Beta</a>
+              <a class="btn btn-lg btn-round btn-success mw-200" href="https://uniswap.exchange/swap?inputCurrency=0xf063fe1ab7a291c5d06a86e14730b00bf24cb589" target="_blank">Buy on Uniswap</a>
+              <a class="btn btn-lg btn-round btn-secondary mw-200" href="#product-line">Additional dApps</a>
             </p>
           </div>
 
           
           <div class="d-none d-lg-block sample-blocks">
-            <a href="#" target="_blank">
+            <a href="#product-line" target="_blank">
               <img class="shadow-6 aos-init aos-animate" src="assets/img/1x/80-80-dark-logo.png" alt="..." data-aos="fade-up" data-aos-delay="0" data-aos-offset="0">
             </a>
   
-            <a href="#" target="_blank">
+            <a href="#product-line" target="_blank">
               <img class="shadow-6 aos-init aos-animate" src="assets/img/1x/dxstake-80-80.png" alt="..." data-aos="fade-up" data-aos-delay="200" data-aos-offset="0">
             </a>
   
-            <a href="#" target="_blank">
+            <a href="#product-line" target="_blank">
               <img class="shadow-6 aos-init aos-animate" src="assets/img/1x/dxlaunch-50-50.png" alt="..." data-aos="fade-up" data-aos-delay="400" data-aos-offset="0">
             </a>
   
-            <a href="#" target="_blank">
+            <a href="#product-line" target="_blank">
               <img class="shadow-6 aos-init aos-animate" src="assets/img/1x/dxlock-80-80.png" alt="..." data-aos="fade-up" data-aos-delay="600" data-aos-offset="0">
             </a>
   
-            <a href="#" target="_blank">
+            <a href="#product-line" target="_blank">
               <img class="shadow-6 aos-init aos-animate" src="assets/img/1x/dxswap-80-80.png" alt="..." data-aos="fade-up" data-aos-delay="800" data-aos-offset="0">
             </a>
   
-            <a href="#" target="_blank">
+            <a href="#product-line" target="_blank">
               <img class="shadow-6 aos-init aos-animate" src="assets/img/1x/dxnft-80-80.png" alt="..." data-aos="fade-up" data-aos-delay="1000" data-aos-offset="0">
             </a>
   
@@ -123,7 +126,7 @@
       | Our Mantra
       |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
       !-->
-      <section id="our-mantra" class="section overflow-hidden bg-gray">
+      <section id="our-mantra" class="section overflow-hidden " style="background-image: linear-gradient(120deg, #c4e7eb 0%, #c3e0b6 100%);">
         <div class="container">
           <header class="section-header">
             
@@ -136,7 +139,7 @@
             <div class="col-lg-5">
               <h1 class="display-4"><strong>Decentralized DeFi Ecosystem</strong></h1>
               <hr >
-              <p class="lead mt-5"> <strong>our vision is to provide the best user experience within the token lifecycle</strong> </p>
+              <p class="lead mt-5"> <strong>our vision is to provide the best user experience within the token lifecycle across popular blockchains</strong> </p>
   
   
               
@@ -174,7 +177,7 @@
   
                   <div class="step-content">
                     <h5 style="color: #715AB5;"><strong>Helping DeFi Mature</strong></h5>
-                    <p>Our primary objective is to bring maturity, legitamcy and trust within the DeFi space.</p>
+                    <p>Our primary objective is to bring maturity, legitamcy and trust within the token ecosystem across multiple blockchains.</p>
                   </div>
                 </li>
               </ol>
@@ -191,14 +194,13 @@
       | Product & Features
       |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
       !-->
-      <section class="section overflow-hidden" style="background-image: linear-gradient(35deg, #e7e297 15%, #5dcbf0 90%);">
+      <section class="section overflow-hidden" style="background-image: linear-gradient(35deg, #75d8b7 25%, #5dcbf0 90%);">
         <canvas class="constellation" data-radius="0" width="1920" height="937"></canvas>
         <div class="container">
           <header class="section-header text-white">
             
-            <h2>Products & Features</h2>
-            <hr>
-            <p class="lead">Developing through first principles, instead of creating a carbon copy.</p>
+            <h2 id="product-line">Products & Features</h2>
+            <p class="lead text-black fw-500 text-quoted" >Developing from scratch, through first principles; no clones or forks. <br>Build first, Market later approach.</p>
           </header>
 
 
@@ -208,32 +210,32 @@
             <div class="col-md-4">
               <ul class="nav nav-tabs-shadow dxsale ">
                 <li class="nav-item " >
-                  <a class="nav-link  active dxstake " data-toggle="tab" href="#tab-1" >
+                  <a class="nav-link  active dxstake " data-toggle="tab" href="#dxstake" >
                     
-                    <h5 class="ww"><strong>DxStake</strong></h5>
-                    <p class="ww small mb-0">You can create a gradient background with two or more colors.</p>
+                    <h5  class="ww"><strong>DxStake</strong></h5>
+                    <p class="ww small mb-0">A scaling staking system where yield grows as more products and users get onboarded to the Dx Ecosystem.</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link dxlaunch" data-toggle="tab" href="#tab-2">
+                  <a class="nav-link dxlaunch" data-toggle="tab" href="#dxlaunch">
                     <h6 class="ww">DxLaunch</h6>
-                    <p class="ww small mb-0">You can create a gradient background with two or more colors.</p>
+                    <p class="ww small mb-0">An agnostic DAO launchpad with governance supporting multiple blockchains.</p>
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link dxlock" data-toggle="tab" href="#tab-3">
+                  <a class="nav-link dxlock" data-toggle="tab" href="#dxlock">
                     <h6 class="ww">DxLock</h6>
-                    <p class="ww small mb-0">Display an image as a background image with an optional overlay.</p>
+                    <p class="ww small mb-0">DxLaunch Integration of DAO Locking with benefits.</p>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link dxswap" data-toggle="tab" href="#tab-4">
+                  <a class="nav-link dxswap" data-toggle="tab" href="#dxswap">
                     <h6 class="ww">DxSwap</h6>
-                    <p class="ww small mb-0">Display hundreds of dots moving in your header with less attention.</p>
+                    <p class="ww small mb-0">DxLaunch integration of DAO instant Liquidity and Swapping.</p>
                   </a>
                 </li>
                 <li class="nav-item ">
-                  <a class="nav-link dxfarm" data-toggle="tab" href="#tab-4">
+                  <a class="nav-link dxfarm" data-toggle="tab" href="#dxfarm">
                     <h6 class="ww">DxFarm</h6>
                     <p class="ww small mb-0">Display hundreds of dots moving in your header with less attention.</p>
                   </a>
@@ -245,41 +247,146 @@
             <div class="col-md-7 ml-auto align-self-center">
               <div class="tab-content text-center">
 
-                <div class="tab-pane fade active show" id="tab-1">
+                <div class="tab-pane fade active show" id="dxstake">
                   
                     <div class="card card-body border text-center">
-                      <p class="my-5"><i class="icon-mic lead-8 text-lighter"></i></p>
-                      <h5>Calls</h5>
-                      <p>Take a conversation from typing to face-to-face by starting a TheSaaS voice or video call in any Channel or Direct Message.</p>
-                      <p><a class="small-3 fw-600" href="#">Read more <i class="fa fa-angle-right small-5 pl-1"></i></a></p>
+                      <p class="my-5"><img src="assets/img/dx-logos/DxStake-product.png" alt="..."></p>
+                      
+                      <ul class="list-unstyled text-left my-5 align-self-center">
+                        <li>
+                          <i class="fa fa-chevron-right mr-2"></i>
+                          <span>2% to stake, 8% unstaking </span>
+                        </li>
+        
+                        <li>
+                          <i class="fa fa-chevron-right mr-2"></i>
+                          <span>1% burn to stake, 4% burn to unstake</span>
+                        </li>
+        
+                        <li>
+                          <i class="fa fa-chevron-right mr-2"></i>
+                          <span>Receive allocation of airdrop from DxLaunch project token sales</span>
+                        </li>
+        
+                        <li>
+                          <i class="fa fa-chevron-right mr-2"></i>
+                          <span>Receive share of revenue from every Dx Product launched</span>
+                        </li>
+                                
+                      </ul>
+                      
+                      <p><a class="small-3 fw-600" href="https://staking.dxsale.network/" target="_blank">Launch Beta App </a></p>
                     </div>
                   
                 </div>
 
-                <div class="tab-pane fade" id="tab-2">
+                <div class="tab-pane fade" id="dxlaunch">
+                  
                   <div class="card card-body border text-center">
-                    <p class="my-5"><i class="icon-mic lead-8 text-lighter"></i></p>
-                    <h5>Calls</h5>
-                    <p>Take a conversation from typing to face-to-face by starting a TheSaaS voice or video call in any Channel or Direct Message.</p>
-                    <p><a class="small-3 fw-600" href="#">Read more <i class="fa fa-angle-right small-5 pl-1"></i></a></p>
+                    <p class="my-5"><img src="assets/img/dx-logos/dxLaunch-product.png" alt="..."></p>
+                    
+                    <ul class="list-unstyled text-left my-5 align-self-center">
+                      <li>
+                        <i class="fa fa-chevron-right mr-2"></i>
+                        <span>Create token sales easily and be listed instantly on the platform. </span>
+                      </li>
+      
+                      <li>
+                        <i class="fa fa-chevron-right mr-2"></i>
+                        <span>Goverened through $SALE to receive continued funding or refund remaining funds back to investors based on performance.</span>
+                      </li>
+      
+                      <li>
+                        <i class="fa fa-chevron-right mr-2"></i>
+                        <span>Tokens & part of revenue provided to stakers on the DxStake platform.</span>
+                      </li>
+      
+                      <li>
+                        <i class="fa fa-chevron-right mr-2"></i>
+                        <span>Tools for angel investors to make correct decisions when investing in a project.</span>
+                      </li>
+                              
+                    </ul>
+                    
+                    <p><a class="small-3 fw-600" href="#">Launch Alpha Ropsten coming soon in Nov 2020 </a></p>
                   </div>
                 </div>
 
-                <div class="tab-pane fade" id="tab-3">
+               
+
+                <div class="tab-pane fade" id="dxlock">
+                  
                   <div class="card card-body border text-center">
-                    <p class="my-5"><i class="icon-mic lead-8 text-lighter"></i></p>
-                    <h5>Calls</h5>
-                    <p>Take a conversation from typing to face-to-face by starting a TheSaaS voice or video call in any Channel or Direct Message.</p>
-                    <p><a class="small-3 fw-600" href="#">Read more <i class="fa fa-angle-right small-5 pl-1"></i></a></p>
+                    <p class="my-5"><img src="assets/img/dx-logos/dxlock-product.png" alt="..."></p>
+                    
+                    <ul class="list-unstyled text-left my-5 align-self-center">
+                      <li>
+                        <i class="fa fa-chevron-right mr-2"></i>
+                        <span>Instant Locking of DxLaunch sales through DAO</span>
+                      </li>
+      
+                      <li>
+                        <i class="fa fa-chevron-right mr-2"></i>
+                        <span>External Token Locking services with incentives.</span>
+                      </li>
+      
+                      <li>
+                        <i class="fa fa-chevron-right mr-2"></i>
+                        <span>Additional custom features will be unveiled as we Launch alpha ropsten</span>
+                      </li>
+                                                        
+                    </ul>
+                    <p><a class="small-3 fw-600" href="#">Estimated: Q1 2021 </a></p>
+                   
                   </div>
                 </div>
 
-                <div class="tab-pane fade" id="tab-4">
+                <div class="tab-pane fade" id="dxswap">
+                  
                   <div class="card card-body border text-center">
-                    <p class="my-5"><i class="icon-mic lead-8 text-lighter"></i></p>
-                    <h5>Calls</h5>
-                    <p>Take a conversation from typing to face-to-face by starting a TheSaaS voice or video call in any Channel or Direct Message.</p>
-                    <p><a class="small-3 fw-600" href="#">Read more <i class="fa fa-angle-right small-5 pl-1"></i></a></p>
+                    <p class="my-5"><img src="assets/img/dx-logos/dxswap-product.png" alt="..."></p>
+                    
+                    <ul class="list-unstyled text-left my-5 align-self-center">
+                      <li>
+                        <i class="fa fa-chevron-right mr-2"></i>
+                        <span> Instant Liquidity provided to Uniswap after sale closure</span>
+                      </li>
+      
+                      <li>
+                        <i class="fa fa-chevron-right mr-2"></i>
+                        <span>DxSwap will utilize Uniswap Liquidity to provide seamless transition to market</span>
+                      </li>
+      
+                      <li>
+                        <i class="fa fa-chevron-right mr-2"></i>
+                        <span>Additional custom features will be unveiled as we Launch alpha ropsten</span>
+                      </li>
+                                                         
+                    </ul>
+                    
+                    <p><a class="small-3 fw-600" href="#">Estimated: Q1 2021 </a></p>
+                  </div>
+                </div>
+
+
+                <div class="tab-pane fade" id="dxfarm">
+                  
+                  <div class="card card-body border text-center">
+                    <p class="my-5"><img src="assets/img/dx-logos/dxfarm-product.png" alt="..."></p>
+                    
+                    <ul class="list-unstyled text-left my-5 align-self-center">
+                      <li>
+                        <i class="fa fa-chevron-right mr-2"></i>
+                        <span>DxSwap Liqudity providers will be instantly added to DxFarming providing high Yield on their respective tokens</span>
+                      </li>
+      
+                      <li>
+                        <i class="fa fa-chevron-right mr-2"></i>
+                        <span>Additional custom features will be unveiled as we Launch alpha ropsten</span>
+                      </li>
+                    </ul>
+                    
+                    <p><a class="small-3 fw-600" href="#">Estimated: June 2021 (Dependency with DxSwap) </a></p>
                   </div>
                 </div>
 
@@ -293,11 +400,121 @@
         </div>
       </section>
 
-
-
-    
-
     </main>
+
+   <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Tokenomics
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section class="section p-0" id="tokenomics">
+        <div class="container-fluid px-0">
+          <div class="row no-gap">
+
+            <div class="col-md-6 bg-dark text-white px-5 py-6 p-md-8">
+              <h3>Tokenomics </h3>
+              <h4 ><a href="https://medium.com/@hash.dxsale/dxsale-burning-final-supply-966cdfb570e0" target="_blank"><i class="text-blue"><u>Detailed Medium Article on Tokenomics</u></i></a></h4>
+              <br>
+              <ul class="list-unstyled">
+                
+                <li>
+                  <i class="fa fa-chevron-right mr-2"></i>
+                  <span>Presale: 484 ETH raised total. <span class="text-blue fw-500"> 240 ETH is locked in liquidity on Uniswap.</span></span>
+                </li>
+                
+                <li>
+                  <i class="fa fa-chevron-right mr-2"></i>
+                  <span>Total Supply: <span class="text-blue fw-500">34,050,458 SALE</span></span>
+                </li>
+                <li>
+                  <i class="fa fa-chevron-right mr-2"></i>
+                  <span><a href="https://etherscan.io/tx/0x9af009770106c6b92dcb6730bc47b8a58c24e23c097346a9406530942f8cf8e6" target="_blank"><i class="text-blue">Proof of Liquidity Burn</i></a></span>
+                </li>
+
+                <li>
+                  <i class="fa fa-chevron-right mr-2"></i>
+                  <span>Team funds will be unlocked on Nov 1 and burned proportionately 
+                    <a href="https://etherscan.io/address/0x4cdb52563c2c3fcdf37fca7911899a24f0b01325" target="_blank"><i class="text-blue">Wallet Address</i></a>
+                  </span>
+                </li>
+
+                <li>
+                  <i class="fa fa-chevron-right mr-2"></i>
+                  <span>Future Funds — Unlocked on Aug 2021 and Burned proportionately: <a href="https://etherscan.io/address/0xd2628cf4eb8e24c56cc244f7435bf3e4a76c7554" target="_blank"><i class="text-blue">Wallet Address</i></a>
+                    </span>
+                </li>
+                <li>
+                  <i class="fa fa-chevron-right mr-2"></i>
+                  <a href="https://www.coingecko.com/en/search_redirect?id=dxsale-network&type=coin" target="_blank"><i class="text-blue">Coingecko Listing</i></a>
+                    
+                </li>
+                
+              </ul>
+            </div>
+
+
+            <div class="col-md-6 bg-gradient-info text-white px-5 py-6 p-md-8" data-overlay="1">
+              <h3>Anonymous Team</h3>
+              <br>
+              <ul class="list-unstyled">
+                <li>
+                  <i class="fa fa-chevron-right mr-2"></i>
+                  <span>All DxSuite are decentralized, you won’t need to rely or trust anyone except the DAO and goverened through SALE tokens</span>
+                </li>
+                <li>
+                  <i class="fa fa-chevron-right mr-2"></i>
+                  <span>Full transparency on locking and burning has already been provided to increase assurance.</span>
+                </li>
+                
+                <li>
+                  <i class="fa fa-chevron-right mr-2"></i>
+                  <span>Every Smart Contract will be audited prior to their beta versions for assurance.</span>
+                </li>
+
+                <li>
+                  <i class="fa fa-chevron-right mr-2"></i>
+                  <span>All though anonymous, we are doing monthly product videos on youtube!</span>
+                </li>
+
+                
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Roadmap
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <header class="header text-white h-fullscreen py-0 bg-gradient-primary" data-overlay="5" id="roadmap">
+        <div class="container text-center">
+  
+          <div class="row h-100 align-items-center">
+            <div class="col-lg-8 mx-auto">
+  
+              <h1 class="display-2 text-uppercase ls-3 fw-500">Product Roadmap 2021</h1>
+              <br><br>
+              <p class="lead">Multi stream product roadmap of Dx Suite for 2021 is being worked on. </p>
+  
+  
+              <h5><strong>We'll be ready in</strong></h5>
+              <br>
+              <div class="countdown countdown-sm countdown-outline countdown-light countdown-uppercase" data-countdown="2020/12/31"><div class="row gap-x-4"><div class="col"><h5>00</h5><small>Day</small></div><div class="col"><h5>00</h5><small>Hour</small></div><div class="col"><h5>00</h5><small>Minute</small></div><div class="col"><h5>00</h5><small>Second</small></div></div></div>
+  
+            </div>
+          </div>
+  
+        </div>
+      </header>
+
+
+
+
+
 
 
     <!-- Footer -->
@@ -305,25 +522,25 @@
       <div class="container">
         <div class="row gap-y align-items-center">
 
-          <div class="col-6 col-lg-3">
+          <div class="col-lg-2">
             <a href="index-2.html"><img src="assets/img/80-80-dark-logo.png" alt="logo"></a>
           </div>
 
-          <div class="col-6 col-lg-3 text-right order-lg-last">
+          <!-- <div class="col-6 col-lg-3 text-right order-lg-last">
             <div class="social">
-              <a class="social-telegram" href="https://www.facebook.com/thethemeio"><i class="fa fa-telegram"></i></a>
-              <a class="social-twitter" href="https://twitter.com/thethemeio"><i class="fa fa-twitter"></i></a>
-              <a class="social-medium" href="https://www.instagram.com/thethemeio/"><i class="fa fa-medium"></i></a>
-              <a class="social-coingecko" href="https://dribbble.com/thethemeio"><i class="fa fa-coingecko"></i></a>
+              <a class="social-telegram" href=""><i class="fa fa-telegram"></i></a>
+              <a class="social-twitter" href=""><i class="fa fa-twitter"></i></a>
+              <a class="social-medium" href=""><i class="fa fa-medium"></i></a>
+              <a class="social-coingecko" href=""><i class="fa fa-coingecko"></i></a>
             </div>
-          </div>
+          </div> -->
 
-          <div class="col-lg-6">
+          <div class="col-lg-10">
             <div class="nav nav-bold nav-uppercase nav-trim justify-content-lg-center">
-              <a class="nav-link" href="#">Vision & Priorities</a>
-              <a class="nav-link" href="#">Product & Features</a>
-              <a class="nav-link" href="#">Roadmap</a>
-              <a class="nav-link" href="#">Tokenomics</a>
+              <a class="nav-link" href="#our-mantra">Vision & Priorities</a>
+              <a class="nav-link" href="#product-line">Product & Features</a>
+              <a class="nav-link" href="#tokenomics">Tokenomics</a>
+              <a class="nav-link" href="#roadmap">Roadmap</a>
             </div>
           </div>
 
@@ -332,9 +549,9 @@
     </footer><!-- /.footer -->
 
 
-<div id="popup-funfact" class="popup p-4 w-300" data-animation="slide-up" data-position="bottom-left" data-autoshow="3000" data-autohide="15000">
-  <h6>Buy $SALE token</h6>
-  <p class="mb-0"> Live on Uniswap! <a href="https://uniswap.exchange/swap?inputCurrency=0xf063fe1ab7a291c5d06a86e14730b00bf24cb589" target="_blank"></a>.</p>
+<div id="popup-funfact" class="popup p-4 w-300" data-animation="slide-up" data-position="bottom-right" data-autoshow="1000" data-autohide="5000">
+  <h6 class="mb-0">  <i class="fa fa-chevron-right mr-2"></i><a href="https://uniswap.exchange/swap?inputCurrency=0xf063fe1ab7a291c5d06a86e14730b00bf24cb589" target="_blank">Buy $SALE on Uniswap!</a></h6>
+  <h6 class="mb-0">  <i class="fa fa-chevron-right mr-2"></i><a href="https://t.me/dxsale" target="_blank">Join our telegram group!</a></h6>
 </div>
 
     <!-- Scripts -->
@@ -343,5 +560,5 @@
 
   </body>
 
-<!-- Mirrored from thetheme.io/thesaas/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Sep 2020 15:37:53 GMT -->
+
 </html>
