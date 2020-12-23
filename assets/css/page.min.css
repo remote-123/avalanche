@@ -14763,6 +14763,33 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos],
     border-color: rgba(255, 255, 255, 0.5)
 }
 
+
+.countdown-list {
+    display: inline-block;
+    font-size: 1.5em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+    align-items: center;
+    
+    display: flex;  
+}
+
+.countdown-list li span {
+    display: block;
+    
+  }
+
+  .countdown-list li {
+    padding: .75rem;
+  }
+
+  #content-countdown {
+    display: none;
+    padding: 1rem;
+  }
+
+
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
