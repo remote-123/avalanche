@@ -131,4 +131,13 @@
   body > .footer .nav a:last-child {
     display: none; } }
 
+
+.terms{
+  color: black;
+  text-align: center;
+  font-size: 2vh;
+  margin: 1%;
+}
+
+
 /*# sourceMappingURL=style.css.map */
